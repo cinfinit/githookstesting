@@ -9,10 +9,10 @@ function App() {
        <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
               <p>Counter {count}</p>
-        sampler
-            <button onClick={increment}>Increment</button>
-          <br />
-        <button onClick={decrement}>Decrement</button>
+                    sampler
+                  <button onClick={increment}>Increment</button>
+                <br />
+                    <button onClick={decrement}>Decrement</button>
          </header>
     </div>
   );
