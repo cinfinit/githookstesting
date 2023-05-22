@@ -8,7 +8,7 @@ function App() {
       <div className="App">
        <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-              <p>Counter {count}</p>  zxnckjzxnck
+              <p>Counter {count}</p>  zxnckjzxnck ckdfj
                         sampler
                   <button onClick={increment}>Increment</button>
                       <br />
