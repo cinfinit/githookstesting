@@ -27,8 +27,8 @@
     }
   },
   "lint-staged": {
-    "*.{js,jsx,tsx}": [
-      "prettier --write",
+    "*.{js,json,css,md}": [
+      "prettier --single-quote --write",
       "git add"
     ]
   },
