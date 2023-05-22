@@ -27,12 +27,11 @@
       "precommit": "lint-staged"
     }
   },
-  "lint-staged":{
-    "*.{js,jsx,tsx}":[
+  "lint-staged": {
+    "*.{js,jsx,tsx}": [
       "prettier --write",
       "git add"
     ]
-
   },
   "eslintConfig": {
     "extends": [
@@ -51,5 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "lint-staged": "^13.2.2"
   }
 }
