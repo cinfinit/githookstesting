@@ -11,8 +11,8 @@ function App() {
               <p>Counter {count}</p>
                     sampler
                   <button onClick={increment}>Increment</button>
-                <br />
-                    <button onClick={decrement}>Decrement</button>
+                      <br />
+                       <button onClick={decrement}>Decrement</button>
          </header>
     </div>
   );
